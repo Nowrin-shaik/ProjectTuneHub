@@ -1,0 +1,43 @@
+/* displaysongs.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td audio {
+    width: 100%;
+}
+
+thead th {
+    font-weight: bold;
+}

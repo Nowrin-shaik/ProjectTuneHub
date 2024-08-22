@@ -1,0 +1,83 @@
+/* customer.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+    width: 220px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="submit"]:active {
+    background-color: #1e7e34;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+audio {
+    width: 100%;
+    height: 30px;
+}
+
+.non-premium, .premium {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
